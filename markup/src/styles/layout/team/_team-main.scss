@@ -1,0 +1,105 @@
+.public__content {
+  background: #fff;
+  display: flex;
+  padding: 0 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 60px;
+
+  h1 {
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    @media (min-width: 992px) {
+      max-width: 900px;
+      display: flex;
+      justify-content: start;
+    }
+  }
+  @media (min-width: 992px) {
+    width: 1440px;
+    margin-top: 50px;
+  }
+  .public__header {
+    img {
+      border-radius: 12px;
+    }
+    @media (min-width: 992px) {
+      width: 420px;
+    }
+  }
+
+  ul {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @media (min-width: 992px) {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    @media (min-width: 992px) {
+      padding: 0 30px;
+      max-width: 460px;
+    }
+  }
+
+  .pablic__main {
+    padding: 0 15px;
+    position: relative;
+    margin: 10px 0 0 0;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    span:first-child {
+      display: inline;
+      margin: 5px 0 0 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0;
+    }
+    span:nth-child(2) {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #b3b3ba;
+    }
+  }
+  span:last-child {
+    right: 4%;
+    top: 0;
+    position: absolute;
+    content: "\e902";
+    text-align: right;
+    color: #24a3ff;
+    background: #f5f5fa;
+    padding: 10px 12px;
+    margin: 0;
+    border-radius: 50%;
+    text-align: right;
+    @media (min-width: 992px) {
+      right: -4%;
+    }
+    &:hover {
+      content: "\e902";
+      color: #f0145a;
+    }
+  }
+}

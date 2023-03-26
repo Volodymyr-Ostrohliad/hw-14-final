@@ -1,0 +1,116 @@
+.card__box {
+  display: flex;
+  margin-top: 30px;
+  padding: 0 30px;
+  flex-direction: column;
+  @media (min-width: 992px) {
+    width: 1440px;
+    flex-direction: column;
+    padding: 0 60px;
+    // align-content: calc(100% / 3);
+    // flex-wrap: wrap;
+  }
+
+  a:first-child {
+    width: 95px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #24a3ff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    @media (min-width: 992px) {
+      margin-left: 90px;
+    }
+  }
+
+  h2 {
+    margin: 10px 0 25px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    @media (min-width: 992px) {
+      margin-left: 90px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: baseline;
+    padding: 0;
+    @media (min-width: 992px) {
+      list-style: none;
+      // display: flex;
+      // justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+    }
+
+    li {
+      padding: 30px 30px;
+      width: 100%;
+      max-width: 315px;
+      @media (min-width: 992px) {
+        padding: 30px;
+        max-width: 400px;
+        // &:first-of-type {
+        //   margin-left: 100px;
+        // }
+        // &:nth-child(4) {
+        //   margin-left: 100px;
+        // }
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #24a3ff;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+      }
+      img {
+        max-width: 92px;
+        max-height: 92px;
+      }
+    }
+  }
+}
+
+.lines {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 10px;
+  margin: 0 auto;
+  bottom: 50%;
+  background: #cacadb;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.lines-2 {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 10px;
+  background: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
+}

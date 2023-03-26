@@ -1,0 +1,119 @@
+.public__content {
+  background: #f5f5fa;
+  display: flex;
+  padding: 0 30px;
+  flex-direction: column;
+  @media (min-width: 992px) {
+    width: 1440px;
+    margin-top: 50px;
+  }
+  .public__header {
+    @media (min-width: 992px) {
+      width: 420px;
+    }
+  }
+  a {
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24a3ff;
+    @media (min-width: 992px) {
+      margin-left: 30px;
+    }
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    @media (min-width: 992px) {
+      margin-left: 30px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @media (min-width: 992px) {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      // max-width: 420px;
+      // padding: 0 15px;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    @media (min-width: 992px) {
+      padding: 0 30px;
+      max-width: 460px;
+    }
+  }
+
+  .pablic__main {
+    padding: 0 15px;
+    position: relative;
+    margin: 30px 0 0 0;
+    margin-bottom: 15px;
+
+    a {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #24a3ff;
+      @media (min-width: 992px) {
+        margin: 0;
+      }
+    }
+
+    span {
+      display: inline-block;
+      margin: 15px 0;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #b3b3ba;
+    }
+  }
+
+  .public__footer {
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  .line {
+    height: 4px;
+    background: #e6e6f0;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .public__footer--last {
+    margin-bottom: 15px;
+  }
+}
